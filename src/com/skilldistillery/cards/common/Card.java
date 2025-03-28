@@ -12,11 +12,12 @@ public class Card {
 		this.suit = suit;
 		this.rank = rank;
 	}
-	//getters/setters
+
+	// getters/setters
 	public int getValue() {
 		return rank.getValue();
 	}
-	//other methods
+	// other methods
 
 	@Override
 	public int hashCode() {
@@ -38,9 +39,10 @@ public class Card {
 		Card other = (Card) obj;
 		return rank == other.rank && suit == other.suit;
 	}
+
 	@Override
 	public String toString() {
 		return (rank + " of " + suit);
 	}
-	
+
 }
