@@ -18,7 +18,6 @@ public class Player {
 	}
 
 	public int getHandValue() {
-		// TOD FINISH
-		return 0;
+		return this.hand.getHandValue();
 	}
 }

@@ -33,6 +33,7 @@ public class Deck {
 	public void shuffle() {
 		Collections.shuffle(cards);
 	}
+	
 }
 
 //	Create a class Deck. It will hold a List of Cards.

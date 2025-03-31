@@ -17,6 +17,15 @@ public class Dealer extends Player {
 
 	public Card dealCard() {
 		return deck.dealCard();
+		
+	}
+	
+	public void shuffleCards() {
+		deck.shuffle();
+	}
+	
+	public int deckSize() {
+		return deck.checkDeckSize();
 	}
 
 }
