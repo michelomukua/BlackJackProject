@@ -22,8 +22,10 @@
 
 
 ## Technologies / Concepts Used
-	Enum data type for constant classes of Suit and Rank
-	For loop  and boolean
+	- Enum data type for constant classes of Suit and Rank
+	- For loop
+	- Boolean
+	- Collections.shuffle for ArrayLists
 
 
 

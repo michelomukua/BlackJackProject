@@ -155,6 +155,9 @@ public class BlackjackApplication {
 		
 		if("Y".equalsIgnoreCase(choice)) {
 			if( dealer.deckSize() <= 4) { //check size of the deck
+				
+				//TODO FIX ME for stretch goal. Code needed to eliminate out of bound exception when player continues to Hit while the number of cards in the Deck cannot sustain more hits.
+				
 				System.out.println("Cancelling Round. There is insufficeint number of cards in the deck for the next round");				
 			}else {			
 				player.hand.clear();
